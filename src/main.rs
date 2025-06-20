@@ -1,5 +1,7 @@
 use actix::prelude::*;
 
+mod game;
+
 struct MyActor {
     count: usize,
 }
